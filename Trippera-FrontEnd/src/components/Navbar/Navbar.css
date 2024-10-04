@@ -1,0 +1,18 @@
+/* Main Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* logo styling */
+img {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
