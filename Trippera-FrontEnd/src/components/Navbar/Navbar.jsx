@@ -7,9 +7,9 @@ function Navbar() {
   return (
     <div>
       {/* Main Container */}
-      <div className='navbar'>
+      <div className='navbar-container'>
         {/* Logo */}
-        <img src={Logo} alt='Airbnb Logo' />
+        <img className='Logo' src={Logo} alt='Airbnb Logo' />
       </div>
     </div>
   );
