@@ -7,15 +7,15 @@ import Star from '../../images/star.png'
 function Card() {
   return (
     <div className='card'>
-      <img className='card-image' src={CardImage} alt='Card Image' />
+      <img className='card-image' src={CardImage} alt='Image of ....' />
       <div className='card-info'>
-        <img src={Star} alt='Star' />
+        <img className='card-star' src={Star} alt='Star' />
         <span>5.0</span>
-        <span>(6) •</span>
-        <span>USA</span>
+        <span className='color'>(6) •</span>
+        <span className='color'>USA</span>
       </div>
-      <p>Life lessons with Katie Zaferes</p>
-      <p>From $136 / Person</p>
+      <h2>Life lessons with Katie Zaferes</h2>
+      <p><span className='bold'>From $136</span> / Person</p>
     </div>
   )
 }

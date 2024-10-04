@@ -1,15 +1,38 @@
 /* Main Container */
 .card {
-
+  width: 175px;
+  font-size: .75rem;
 }
 
 /* Image Styling */
 .card-image {
-
+  width: 100%;
+  border-radius: 9px;
 }
 
 /* Star and Card Info */
 .card-info {
-
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
+/* Star Styling */
+.card-star {
+  height: 14px;
+}
+
+/* Gray color for spans */
+.color {
+  color: #918E9B;
+}
+
+h2 {
+  font-size: .75rem;
+  font-weight: normal;
+}
+
+/* Bold Span Text */
+.bold {
+  font-weight: bold;
+}
