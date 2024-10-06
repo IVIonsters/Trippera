@@ -1,23 +1,23 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React from 'react'
-import './Card.css'
-import CardImage from '../../images/katie-zaferes.png'
-import Star from '../../images/star.png'
+import React from 'react';
+import './Card.css';
+import Star from '../../images/star.png';
 
-function Card() {
+function Card(props) {
   return (
     <div className='card'>
-      <img className='card-image' src={CardImage} alt='Image of ....' />
+      <img className='card-image' src={props.img} alt='Image of ....' />
       <div className='card-info'>
         <img className='card-star' src={Star} alt='Star' />
-        <span>5.0</span>
-        <span className='color'>(6) •</span>
-        <span className='color'>USA</span>
+        <span>{props.rating}</span>
+        <span className='color'>{props.reviews} •</span>
+        <span className='color'>{props.country}</span>
       </div>
-      <h2>Life lessons with Katie Zaferes</h2>
-      <p><span className='bold'>From $136</span> / Person</p>
+      <h2>{props.title}</h2>
+      <p><span className='bold'>From {props.price}</span> / Person</p>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;
