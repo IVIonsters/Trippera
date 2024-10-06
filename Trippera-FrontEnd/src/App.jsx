@@ -11,10 +11,10 @@ function App() {
       <Card 
         img="./images/katie-zaferes.png"
         rating='5.0'
-        reviews='6'
+        reviews={6}
         country='USA'
-        title='Life lessons with Katie Zaferes'
-        price='$136'
+        description='Life lessons with Katie Zaferes'
+        price={136}
       />
     </>
   )
