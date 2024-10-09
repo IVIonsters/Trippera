@@ -1,21 +1,37 @@
+/* eslint-disable no-unused-vars */
 import './App.css'
 import Hero from './components/HeroSection/Hero'
 import Navbar from './components/Navbar/Navbar'
 import Card from './components/Card/Card'
+// Import data for Card component
+import cardData from './utils/cardData'
 
-function App() {
+function App(props) {
+
+  // Destructure the data from the cardData object
+  const { id, title, description, price, stats, location, openSpots } = cardData[0]
+
+  //  log the cardData object to the console
+  console.log(cardData[0])
+
+const cardArray = cardData.map(card => (
+  <Card
+  key={card.id}
+  img={card.coverImg}
+  rating={card.stats.rating}
+  reviews={card.stats.reviewCount}
+  country={card.location}
+  title={card.title}
+  price={card.price}
+  />
+
+))
+  
   return (
     <>
       <Navbar />
       <Hero />
-      <Card 
-        img="./images/katie-zaferes.png"
-        rating='5.0'
-        reviews={6}
-        country='USA'
-        description='Life lessons with Katie Zaferes'
-        price={136}
-      />
+      {cardArray}
     </>
   )
 }

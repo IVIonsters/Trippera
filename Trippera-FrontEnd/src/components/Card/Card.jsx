@@ -20,7 +20,7 @@ function Card(props) {
         <span className='color'>{props.country}</span>
       </div>
       {/* Image description */}
-      <h2>{props.description}</h2>
+      <h2>{props.title}</h2>
       {/* Pricing for card object */}
       <p><span className='bold'>From ${props.price}</span> / Person</p>
     </div>
