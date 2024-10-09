@@ -1,1 +1,7 @@
 
+.card-section {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  overflow-x: auto;
+}

@@ -31,7 +31,9 @@ const cardArray = cardData.map(card => (
     <>
       <Navbar />
       <Hero />
-      {cardArray}
+      <section className='card-section'>
+        {cardArray}
+      </section>
     </>
   )
 }
