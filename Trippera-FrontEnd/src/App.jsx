@@ -6,7 +6,7 @@ import Card from './components/Card/Card'
 // Import data for Card component
 import cardData from './utils/cardData'
 
-function App(props) {
+function App() {
 
   // Destructure the data from the cardData object
   const { id, title, description, price, stats, location, openSpots } = cardData[0]
@@ -23,6 +23,7 @@ const cardArray = cardData.map(card => (
   country={card.location}
   title={card.title}
   price={card.price}
+  openSpots={card.openSpots}
   />
 
 ))

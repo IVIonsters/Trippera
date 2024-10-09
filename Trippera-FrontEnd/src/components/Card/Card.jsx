@@ -8,6 +8,7 @@ function Card(props) {
   console.log(props);/* this allows us to see the props we passed in the console */
   return (
     <div className='card'>
+      {props.openSpots === 0 && <div className='card-badge'>SOLD OUT</div>}
       {/* Image for Card */}
       <img className='card-image' src={props.img} alt='Image of ....' />
       <div className='card-info'>
