@@ -5,10 +5,19 @@ import './Card.css';
 import Star from '../../images/star.png';
 
 function Card(props) {
-  console.log(props);/* this allows us to see the props we passed in the console */
+  console.log(props); // Log props to see the passed values
+
+  // Function to display the card status
+  let cardStatus;
+  if (props.openSpots === 0) {
+    cardStatus = <div className='card-badge'>SOLD OUT</div>;
+  } else if (props.country === 'Online') {
+    cardStatus = <div className='card-badge'>ONLINE</div>;
+  }
+
   return (
     <div className='card'>
-      {props.openSpots === 0 && <div className='card-badge'>SOLD OUT</div>}
+      {cardStatus}
       {/* Image for Card */}
       <img className='card-image' src={props.img} alt='Image of ....' />
       <div className='card-info'>
