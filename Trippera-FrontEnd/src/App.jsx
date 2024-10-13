@@ -12,16 +12,20 @@ function App() {
 
   // Map over cardData to create an array of Card components
   const cardArray = cardData.map(card => (
+    // <Card
+    //   key={card.id}
+    //   img={card.coverImg}
+    //   rating={card.stats.rating}
+    //   reviews={card.stats.reviewCount}
+    //   country={card.location}
+    //   title={card.title}
+    //   price={card.price}
+    //   openSpots={card.openSpots}
+    // />
     <Card
-      key={card.id}
-      img={card.coverImg}
-      rating={card.stats.rating}
-      reviews={card.stats.reviewCount}
-      country={card.location}
-      title={card.title}
-      price={card.price}
-      openSpots={card.openSpots}
-    />
+    key={card.id}
+    card={card}
+  />
   ))
 
   return (
