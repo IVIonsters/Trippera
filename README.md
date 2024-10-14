@@ -43,7 +43,7 @@ Once the development server is running, you can view the Trippera project in you
 ## **Screenshots**
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <img src="./Trippera-FrontEnd/Images/Project1.png" alt="Trippera No Phone" width="300">
-    <img src="./Trippera-FrontEnd/Images/Project2.png" alt="Trippera with Phone" width="300">
+    <img src="./Trippera-FrontEnd/Images/project2.png" alt="Trippera with Phone" width="300">
 </div>
 
 ## **License**
