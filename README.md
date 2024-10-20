@@ -41,10 +41,10 @@ Once the development server is running, you can view the Trippera project in you
 
 
 ## **Screenshots**
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <img src="./Trippera-FrontEnd/Images/Project1.png" alt="Trippera No Phone" width="300">
-    <img src="./Trippera-FrontEnd/Images/project2.png" alt="Trippera with Phone" width="300">
-</div>
+
+| ![Trippera on iPhone 15 Pro Max](./images/iPhone-15-PRO-MAX-localhost.png) | ![Trippera on iPad](./images/iPad-PRO-11-localhost.png) | ![Trippera Fullscreen View on iPhone](./images/iPhone-15-PRO-MAX-localhost%20(1).png) |
+|:-------------------------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------------------------:|
+| Trippera on iPhone 15 Pro Max                                          | Trippera on iPad                                          | Fullscreen View on iPhone 15 Pro Max                                           |
 
 ## **License**
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
