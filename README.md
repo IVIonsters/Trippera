@@ -42,7 +42,7 @@ Once the development server is running, you can view the Trippera project in you
 
 ## **Screenshots**
 
-| ![Trippera on iPhone 15 Pro Max](./images/Iphone-15-PRO.png) | ![Trippera on iPad](./images/iPad-Pro.png) | ![Trippera Fullscreen View on iPhone](./images/iPhone-15-PRO-MAX.png) |
+| ![Trippera on iPhone 15 Pro Max](./images/Iphone-15-PRO.png) | ![Trippera on iPad](./images/iPad-Pro.png) | ![Trippera Fullscreen View on iPhone](./images/iPhone-15.png) |
 |:-------------------------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------------------------:|
 | Trippera on iPhone 15 Pro Max                                          | Trippera on iPad                                          | Fullscreen View on iPhone 15 Pro Max                                           |
 
